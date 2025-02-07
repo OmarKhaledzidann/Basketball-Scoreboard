@@ -1,0 +1,62 @@
+body
+{
+    margin: 0;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: 1B244A;
+}
+
+.team
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3
+{
+    font-weight: bold;
+    color: EEEEEE;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.score_box
+{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score_text
+{
+    font-family: Cursed Timer ULiL;
+    color: F94F6D;
+    font-size: 80px;
+}
+
+.button-container
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button
+{
+    width: 45px;
+    height: 45;
+    border:solid #9AABD8 ;
+    border-radius: 5px;
+    margin-right: 9px;
+    font-size: 18px;
+    font-family: Cursed Timer ULiL;
+}
